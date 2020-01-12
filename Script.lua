@@ -1,2 +1,2 @@
-local Exploit = is_sirhurt_closure and "Sirhurt" or secure_load and "Sentinel" or "UnknownExploit"
+local Exploit = Sirhurt and "Sirhurt" or secure_load and "Sentinel" or "UnknownExploit"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Stroketon/ViperDumper/master/" .. Exploit .. ".lua"))()
